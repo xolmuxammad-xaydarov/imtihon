@@ -18,6 +18,7 @@ export default function Categories() {
         arr.push(elem.type)
       }
     });
+    console.log(category);
   }
   pushCategory();
 
