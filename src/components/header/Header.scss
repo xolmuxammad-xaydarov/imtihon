@@ -1,0 +1,35 @@
+.header{
+  padding-top: 22px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .right__block{
+    display: flex;
+    align-items: center;
+    a{
+      font-weight: 300;
+    }
+    nav{
+      width: 380px;
+      margin-right: 131px;
+    }
+    .nav__list{
+      display: flex;
+      justify-content: space-between;
+      .active{
+        border-bottom: 1px solid #fff;
+      }
+
+    }
+    .personal{
+      display: flex;
+      align-items: center;
+      .personal__img{
+        border-radius: 50%;
+        padding-right: 10px;
+      }
+    }
+  }
+}

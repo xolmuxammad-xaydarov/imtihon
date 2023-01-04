@@ -1,0 +1,23 @@
+.books__nav{
+  margin-top: 150px;
+
+  a{
+    border-bottom: 2px solid #C9AC8C;
+  }
+}
+
+.books__list{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  li{
+    width: 173px;
+    background-color: #404040;
+    border-radius: 15px;
+    margin: 10px;
+    height: 322px;
+    text-align: center;
+    padding-bottom: 10px;
+    object-fit: cover;
+  }
+}

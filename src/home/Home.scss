@@ -3,33 +3,3 @@
   margin: 0 auto;
   font-family: sans-serif;
 }
-.header{
-  padding-top: 22px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  .right__block{
-    display: flex;
-    align-items: center;
-    a{
-      font-weight: 300;
-    }
-    nav{
-      width: 380px;
-      margin-right: 131px;
-    }
-    .nav__list{
-      display: flex;
-      justify-content: space-between;
-    }
-    .personal{
-      display: flex;
-      align-items: center;
-      .personal__img{
-        border-radius: 50%;
-        padding-right: 10px;
-      }
-    }
-  }
-}
